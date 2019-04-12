@@ -1,3 +1,3 @@
 before('protect from forgery', function () {
-  protectFromForgery('6cfc9b420924b8c59618fa58f693f325e876e890');
+  protectFromForgery('9cb1af09f348562ee54f2c3134c7ed46b419ff20');
 });

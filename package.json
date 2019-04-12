@@ -6,15 +6,17 @@
   ],
   "main": "server.js",
   "dependencies": {
+    "co-assets-compiler": "*",
+    "coffee-script": ">= 1.1.1",
+    "compound": ">= 1.1.0",
     "ejs": "*",
     "ejs-ext": "latest",
     "express": "~3.x",
-    "compound": ">= 1.1.0",
     "jugglingdb": ">= 0.1.0",
-    "coffee-script": ">= 1.1.1",
-    "stylus": "latest",
+    "jugglingdb-mongodb": ">= 0",
+    "mongodb": "^3.2.3",
     "seedjs": "latest",
-    "co-assets-compiler": "*"
+    "stylus": "latest"
   },
   "devDependencies": {
     "nodeunit": "*",
